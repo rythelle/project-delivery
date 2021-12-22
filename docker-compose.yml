@@ -9,8 +9,8 @@ services:
       - 5432:5432
     environment:
      POSTGRES_DB: delivery
-     POSTGRES_USER: admin
-     POSTGRES_PASSWORD: 102030
+     POSTGRES_USER:
+     POSTGRES_PASSWORD:
     volumes:
       - pgdata:/data/postgres
 
